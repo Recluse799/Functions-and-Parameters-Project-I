@@ -25,10 +25,20 @@
 using namespace std;
 
 const double pi = 3.1416;// definition of pi by professor
+// precondition : main funbtion will provide perameters and called by calradius
+//  posconditions: distence is returned to calradius.
+double calcDistance(double x1, double y1, double x2, double y2); 
 
-double calcDistance(double x1, double y1, double x2, double y2);
+// precondition : main funbtion will provide perameters it will call call calcDistance and calradius  
+//  posconditions: will rename distance radius and give cout radius and send to main as a reference value.
 void calcRadius(double x1, double y1, double x2, double y2, double& radius);
+
+// precondition : called by main function and the main funbtion will provide reference values - radius
+// posconditions: Will calculate area and c out the area.
 void calcArea(double nubx1, double nuby1, double nubx2, double nuby2, double rad);
+
+// precondition : Is called by the main function and the main function provides the refernce value.
+// posconditions: Will calculate the circumference and c out the circumference.
 void calcCircumference(double nux1, double nuy1, double nux2, double nuy2, double radi);
 
 int main()
