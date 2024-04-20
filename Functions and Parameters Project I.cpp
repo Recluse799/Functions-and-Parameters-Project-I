@@ -1,12 +1,13 @@
 /*Immanuel Braxton
    3 / 7 / 2024
-   This program will ask for program that provides the radius, circumference and area of a circle given the coordinates of its 
-   center point and a point on its circumference.  These cooridinates will be asked by the main function where it will then call the 
-   prototype calcRadius to calculate the radius via calling the calcDistance function. The calcDistance function will return an 
-   actual value, the calculated distance, which in turn is the calculated radius. In the calcRadius function  the distance will be 
-   renamed radius and recieved by the mainfunction as a reference value.  The reference value will then be accessed by both prototype 
-   functions, calccircumference and calcArea functions.  These functions will output their respective calculated values prior to going 
-   back to the main function and terminating. "
+   This program will ask for given coordinates of a center point and a point on its circumference of the circle. 
+   This program that provides the radius, circumference and area of a circle.These cooridinates will be asked to be 
+   provided in the main function, where the main function will then call prototype calcRadius to calculate the radius via calling 
+   the calcDistance function. The calcDistance function will return an actual value, the calculated distance, which in turn is the
+   calculated radius. In the calcRadius function the distance will be renamed radius and recieved by the mainfunction as a reference value. 
+   The reference value will then be accessed by both prototype functions, calccircumference and calcArea functions.  These 
+   functions will output their respective calculated values prior to going back to the main function and terminating. 
+ "
 
     
 */
